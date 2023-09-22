@@ -1,0 +1,296 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffff;
+}
+
+.kepala {
+    padding: 3px 0 3px 0;
+    background-color: #243A73;
+}
+
+.container {
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    line-height: 55px;
+}
+
+.container .logo1 {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    padding-left: 1px;
+}
+
+.container .logo2 {
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    padding-left: 940px;
+}
+
+nav{
+    height: 72px;
+    background: #063247;
+}
+
+nav ul{
+    float: right;
+    margin-right: 60px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    color: white;
+    display: block;
+    padding: 0 15px 0 15px;
+    background: #063247;
+    line-height: 72px;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: #b39f9f;
+}
+
+nav ul ul{
+    position: absolute;
+    border-top: 5px solid #b39f9f;
+    opacity: 0;
+}
+
+nav ul li:hover > ul{
+    top: 125px;
+    opacity: 1;
+    visibility: visible;
+    z-index: 1;
+}
+
+nav ul ul li{
+    width: 130px;
+    position: relative;
+    display: list-item;
+}
+
+nav ul ul li a{
+    line-height: 55px;
+}
+
+/* login */
+
+.do {
+    width: 1000px;
+    max-width: 1200px;
+    margin-top: 100px;
+    margin-right: 300px;
+    margin-left: 450px;
+    margin-bottom: 100px;
+    border-radius: 15px;
+    height: 750px;
+    background: #243A73;
+    border: 1px solid black;
+}
+
+.one {
+    display: flex;
+}
+
+.login {
+    width: 600px;
+}
+
+form {
+    width: 250px;
+    margin: 60px auto;
+}
+
+
+h1 {
+    margin-bottom: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+hr {
+    border-top: 2px solid #ffa12c ;
+}
+
+.bag1 {
+    display: flex;
+}
+
+.bag2 {
+    display: flex;
+}
+
+p {
+    text-align: center;
+    margin: 10px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+p a {
+    color: #fff;
+    margin-left: 6px;
+}
+
+form label {
+    display: flex;
+    margin-bottom: 7px;
+    font-size: 16px;
+    font-weight: 550;
+    padding: 11px;
+    color: #fff;
+}
+
+.alamat {
+    margin-bottom: 30px;
+}
+
+.isi {;
+    margin-top: 186px;
+}
+
+.isi .kota1 {
+    display: flex;
+}
+
+.kota1 input {
+    width: 30%;
+    margin: 4px;
+    padding: 9px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    border: 2px solid gray;
+}
+
+.alamat1 input {
+    width: 74%;
+    padding: 25px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    border: 2px solid gray; 
+}
+
+input {
+    width: 80%;
+    margin: 4px;
+    padding: 9px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    border: 2px solid gray;
+}
+
+button {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 75px;
+    margin-left: 350px;
+    border-radius: 5px;
+    padding: 12px;
+    width: 300px;
+    height: 50px;
+    color: #fff;
+    font-weight: bolder;
+    background: #ffa12c;
+}
+
+/* footer */
+
+.container1 {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.barisfoot {
+    display: flex;
+}
+
+.footer {
+    padding: 40px 0 40px 0;
+    background-color: #243A73;
+}
+
+.barisfoot1 {
+    width: 25%;
+    padding: 0 30px;
+}
+
+.barisfoot2 {
+    color: #fff;
+}
+
+.barisfoot1 h4 {
+    font-size: 19px;
+    color: #ffffff;
+    position: relative;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.barisfoot2 h4 {
+    font-size: 19px;
+    color: #ffffff;
+    font-weight: 300;
+    position: relative;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.barisfoot2 p {
+    font-size: 14px;
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.tlp p {
+    margin-top: 10px;
+}
+
+.barisfoot1 ul li {
+    margin-bottom: 10px;
+}
+
+.barisfoot1 ul li a {
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.barisfoot1 ul li a:hover {
+    padding-left: 8px;
+}
+
+.linkmedsoss img {
+    width: 40px;
+    height: 40px;
+    border-radius: 30%;
+}
+
+#copyright {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

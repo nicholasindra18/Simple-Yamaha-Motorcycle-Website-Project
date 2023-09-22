@@ -1,0 +1,410 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffff;
+}
+
+.kepala {
+    padding: 3px 0 3px 0;
+    background-color: #243A73;
+}
+
+.container {
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    line-height: 55px;
+}
+
+.container .logo1 {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    padding-left: 1px;
+}
+
+.container .logo2 {
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    padding-left: 940px;
+}
+
+nav{
+    height: 72px;
+    background: #063247;
+}
+
+nav ul{
+    float: right;
+    margin-right: 60px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    color: white;
+    display: block;
+    padding: 0 15px 0 15px;
+    background: #063247;
+    line-height: 72px;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: #b39f9f;
+}
+
+nav ul ul{
+    position: absolute;
+    border-top: 5px solid #b39f9f;
+    opacity: 0;
+}
+
+nav ul li:hover > ul{
+    top: 125px;
+    opacity: 1;
+    visibility: visible;
+    z-index: 1;
+}
+
+nav ul ul li{
+    width: 130px;
+    position: relative;
+    display: list-item;
+}
+
+nav ul ul li a{
+    line-height: 55px;
+}
+
+/* banner */
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f7f7f7;
+}
+
+.cover {
+    position: relative;
+    width: 60%;
+    overflow: hidden;
+}
+
+.pic {
+    display: flex;
+}
+
+.pic input {
+    display: none;
+}
+
+.pic img {
+    width: 100%;
+}
+
+.klik {
+    display: flex;
+    justify-content: center;
+    margin: 6px;
+}
+
+.klik label {
+    height: 17px;
+    width: 17px;
+    border: solid #243A73 3px;
+    cursor: pointer;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.klik label:hover {
+    background: #243A73;
+}
+
+#pic1:checked ~ .b1 {
+    margin-left: 0;
+}
+
+#pic2:checked ~ .b2 {
+    margin-left: -100%;
+}
+
+section {
+    padding: 50px 0;
+}
+
+.tanda1 {
+    background: #fff;
+}
+
+/* Berita */
+
+.tanda11 {
+    background: #243A73;
+    padding: 20px 0px 20px 0px;
+    margin-left: 0px;
+    height: 20px;
+}
+
+.tulis { 
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+.tulis H2 {
+    color: #fff;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.first {
+    background: #3F72AF;
+    padding: 50px 0px 50px 0px;
+}
+
+.ground {
+    display: flex;
+}
+
+.ground img {
+    width: 330px;
+    height: 200px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-left: 42px;
+}
+
+.in {
+    display: flex;
+}
+
+.late {
+    background: #f7f7f7;
+    padding: 0px 0px 50px 0px;
+    margin-left: 42px;
+    width: 330px;
+    height: 300px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.kolom { 
+    margin-bottom: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+.kolom p {
+    margin-top: 10px;
+}
+
+section {
+    padding: 50px 0;
+}
+
+/* promo */
+
+.tanda2 {
+    background: #fff;
+}
+
+.tanda22 {
+    background: #3F72AF;
+    padding: 20px 0px 20px 0px;
+    margin-left: 250px;
+    margin-right: 250px;
+    height: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.tulis1 { 
+    margin-bottom: 40px;
+    margin-left: 30px;
+}
+
+.tulis1 H2 {
+    color: #fff;
+    text-align: center;
+}
+
+.back {
+    background: #27496D;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.pertama img  {
+    width: 450px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+
+.kolom1 {
+    float: right;
+    margin-top: 150px;
+    margin-right: 270px;
+}
+
+.kolom1 H2 {
+    color: #fff;
+}
+
+.kolom1 p {
+    color: #fff;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 8px;
+    width: 460px;
+    height: 40px;
+    margin-top: 40px;
+    border-radius: 4px;
+    color: darkblue;
+    font-size: 17px;
+    cursor: pointer;
+    background: #ffffff;
+    border: 2px solid #f7f7f7;
+}
+
+
+.kedua img  {
+    width: 450px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    border-radius: 3%;
+}
+
+.kolom2 {
+    float: right;
+    margin-top: 150px;
+    margin-right: 270px;
+}
+
+.kolom2 H2 {
+    color: #fff;
+}
+
+.kolom2 p {
+    color: #fff;
+}
+
+section {
+    padding: 50px 0;
+}
+
+
+/* footer */
+
+.container1 {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.barisfoot {
+    display: flex;
+}
+
+.footer {
+    padding: 40px 0 40px 0;
+    background-color: #243A73;
+}
+
+.barisfoot1 {
+    width: 25%;
+    padding: 0 30px;
+}
+
+.barisfoot2 {
+    color: #fff;
+}
+
+.barisfoot1 h4 {
+    font-size: 19px;
+    color: #ffffff;
+    position: relative;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.barisfoot2 h4 {
+    font-size: 19px;
+    color: #ffffff;
+    font-weight: 300;
+    position: relative;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.barisfoot2 p {
+    font-size: 14px;
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.tlp p {
+    margin-top: 10px;
+}
+
+.barisfoot1 ul li {
+    margin-bottom: 10px;
+}
+
+.barisfoot1 ul li a {
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.barisfoot1 ul li a:hover {
+    padding-left: 8px;
+}
+
+.linkmedsoss img {
+    width: 40px;
+    height: 40px;
+    border-radius: 30%;
+}
+
+#copyright {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+

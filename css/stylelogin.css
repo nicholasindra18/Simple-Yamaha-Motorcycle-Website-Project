@@ -1,0 +1,256 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffff;
+}
+
+.kepala {
+    padding: 3px 0 3px 0;
+    background-color: #243A73;
+}
+
+.container1 {
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    line-height: 55px;
+}
+
+.container1 .logo1 {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    padding-left: 1px;
+}
+
+.container1 .logo2 {
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    padding-left: 940px;
+}
+
+nav{
+    height: 72px;
+    background: #063247;
+}
+
+nav ul{
+    float: right;
+    margin-right: 60px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    color: white;
+    display: block;
+    padding: 0 15px 0 15px;
+    background: #063247;
+    line-height: 72px;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: #b39f9f;
+}
+
+nav ul ul{
+    position: absolute;
+    border-top: 5px solid #b39f9f;
+    opacity: 0;
+}
+
+nav ul li:hover > ul{
+    top: 125px;
+    opacity: 1;
+    visibility: visible;
+    z-index: 1;
+}
+
+nav ul ul li{
+    width: 130px;
+    position: relative;
+    display: list-item;
+}
+
+nav ul ul li a{
+    line-height: 55px;
+}
+
+/* login */
+
+.one {
+    width: 100%;
+    display: flex;
+    max-width: 1200px;
+    margin-top: 100px;
+    margin-left: 350px;
+    margin-bottom: 100px;
+    border-radius: 15px;
+    height: 500px;
+    background: #243A73;
+    border: 1px solid black;
+    
+}
+
+.login {
+    width: 400px;
+    margin-left: 200px;
+}
+
+form {
+    width: 250px;
+    margin: 60px auto;
+}
+
+h1 {
+    margin: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+hr {
+    border-top: 2px solid #ffa12c ;
+}
+
+p {
+    text-align: center;
+    margin: 10px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+p a {
+    color: #fff;
+    margin-left: 6px;
+}
+
+.pic img {
+    width: 850px;
+    height: 100%;
+    margin-top: 50px;
+    align: right;
+}
+
+form label {
+    font-size: 16px;
+    font-weight: 550;
+    padding: 4px;
+    color: #fff;
+}
+
+input {
+    width: 100%;
+    margin: 4px;
+    padding: 9px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    border: 2px solid gray;
+}
+
+button {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 40px;
+    border-radius: 5px;
+    padding: 9px;
+    width: 270px;
+    color: #fff;
+    font-weight: bolder;
+    background: #ffa12c;
+}
+
+
+/* footer */
+
+.container2 {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.barisfoot {
+    display: flex;
+}
+
+.footer {
+    padding: 40px 0 40px 0;
+    background-color: #243A73;
+}
+
+.barisfoot1 {
+    width: 25%;
+    padding: 0 30px;
+}
+
+.barisfoot2 {
+    color: #fff;
+}
+
+.barisfoot1 h4 {
+    font-size: 19px;
+    color: #ffffff;
+    position: relative;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.barisfoot2 h4 {
+    font-size: 19px;
+    color: #ffffff;
+    font-weight: 300;
+    position: relative;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.barisfoot2 p {
+    font-size: 14px;
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.tlp p {
+    margin-top: 10px;
+}
+
+.barisfoot1 ul li {
+    margin-bottom: 10px;
+}
+
+.barisfoot1 ul li a {
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.barisfoot1 ul li a:hover {
+    padding-left: 8px;
+}
+
+.linkmedsoss img {
+    width: 40px;
+    height: 40px;
+    border-radius: 30%;
+}
+
+#copyright {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

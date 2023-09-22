@@ -1,0 +1,256 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffff;
+}
+
+.kepala {
+    padding: 3px 0 3px 0;
+    background-color: #243A73;
+}
+
+.container {
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    line-height: 55px;
+}
+
+.container .logo1 {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    padding-left: 1px;
+}
+
+.container .logo2 {
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    padding-left: 940px;
+}
+
+nav{
+    height: 72px;
+    background: #063247;
+}
+
+nav ul{
+    float: right;
+    margin-right: 60px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    color: white;
+    display: block;
+    padding: 0 15px 0 15px;
+    background: #063247;
+    line-height: 72px;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: #b39f9f;
+}
+
+nav ul ul{
+    position: absolute;
+    border-top: 5px solid #b39f9f;
+    opacity: 0;
+}
+
+nav ul li:hover > ul{
+    top: 125px;
+    opacity: 1;
+    visibility: visible;
+    z-index: 1;
+}
+
+nav ul ul li{
+    width: 130px;
+    position: relative;
+    display: list-item;
+}
+
+nav ul ul li a{
+    line-height: 55px;
+}
+
+.buka .matic {
+    font-size: 50px;
+    font-family: sans-serif;
+    padding-left: 80px;
+}
+
+.banner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.banner img {
+    height: 70vh;
+    width: 1000px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* KATALOG */
+
+.first {
+    background: #F2F2F2;
+    padding: 50px 0px 50px 0px;
+}
+
+.ground {
+    display: flex;
+}
+
+.ground img {
+    width: 400px;
+    height: 400px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left: 65px;
+}
+
+.in {
+    display: flex;
+}
+
+.late {
+    background: #243A73;
+    padding: 50px 0px 50px 0px;
+    margin-left: 65px;
+    width: 400px;
+    height: 200px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.kolom { 
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+.kolom H2 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.kolom p {
+    color: #fff;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 8px;
+    width: 360px;
+    height: 40px;
+    margin-top: 100px;
+    border-radius: 4px;
+    color: darkblue;
+    font-size: 17px;
+    cursor: pointer;
+    background: #fffff;
+    border: 2px solid #f7f7f7;
+}
+
+/* footer */
+
+.container1 {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.barisfoot {
+    display: flex;
+}
+
+.footer {
+    padding: 40px 0 40px 0;
+    background-color: #243A73;
+}
+
+.barisfoot1 {
+    width: 25%;
+    padding: 0 30px;
+}
+
+.barisfoot2 {
+    color: #fff;
+}
+
+.barisfoot1 h4 {
+    font-size: 19px;
+    color: #ffffff;
+    font-weight: 300;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.barisfoot2 h4 {
+    font-size: 19px;
+    color: #ffffff;
+    font-weight: 300;
+    position: relative;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.barisfoot2 p {
+    font-size: 14px;
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.tlp p {
+    margin-top: 10px;
+}
+
+.barisfoot1 ul li {
+    margin-bottom: 10px;
+}
+
+.barisfoot1 ul li a {
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.barisfoot1 ul li a:hover {
+    padding-left: 8px;
+}
+
+.linkmedsoss img {
+    width: 40px;
+    height: 40px;
+    border-radius: 30%;
+}
+
+#copyright {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

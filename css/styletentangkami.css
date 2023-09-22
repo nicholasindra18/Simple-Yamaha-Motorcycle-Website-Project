@@ -1,0 +1,316 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffff;
+}
+
+.kepala {
+    padding: 3px 0 3px 0;
+    background-color: #243A73;
+}
+
+.container {
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    line-height: 55px;
+}
+
+.container .logo1 {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    padding-left: 1px;
+}
+
+.container .logo2 {
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    padding-left: 940px;
+}
+
+nav{
+    height: 72px;
+    background: #063247;
+}
+
+nav ul{
+    float: right;
+    margin-right: 60px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    color: white;
+    display: block;
+    padding: 0 15px 0 15px;
+    background: #063247;
+    line-height: 72px;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: #b39f9f;
+}
+
+nav ul ul{
+    position: absolute;
+    border-top: 5px solid #b39f9f;
+    opacity: 0;
+}
+
+nav ul li:hover > ul{
+    top: 125px;
+    opacity: 1;
+    visibility: visible;
+    z-index: 1;
+}
+
+nav ul ul li{
+    width: 130px;
+    position: relative;
+    display: list-item;
+}
+
+nav ul ul li a{
+    line-height: 55px;
+}
+
+/* PROFILE */
+
+.first {
+    background-color: #ffffff;
+    padding: 30px 200px 50px 200px;
+}
+
+.back {
+    background-color: #A5BECC;
+    border-radius: 2%;
+}
+
+.judul {
+    display: flex;
+    margin-left: 450px;
+}
+
+.judul1 {
+    margin-left: 200px;
+    margin-right: 850px;
+}
+
+h4 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.profile1 {
+    display: flex; 
+}
+
+.profile1 img {
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 200px;
+    width: 500px;
+}
+
+.kolom11 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+}
+
+.kolom11 p {
+    text-align: justify;
+}
+
+.kolom11 H2 {
+    margin-bottom: 10px;
+}
+
+
+/* Visi Misi */
+
+.pertama {
+    background: #063247;
+    padding: 50px 0px 50px 0px;
+}
+
+.judul1 {
+    margin-right: 50px;
+    margin-left: 0px;
+}
+
+.judul2 {
+    margin-right: 100px;
+}
+
+.judul1 H4 {
+    color: #fff;
+}
+
+.judul1 p {
+    text-align: center;
+    color: #fff;
+}
+
+.judul2 H4 {
+    color: #fff;
+}
+
+.judul2 p {
+    text-align: center;
+    color: #fff;
+}
+
+/* DEALER */
+
+.first1 {
+    background: #27496D;
+    padding: 50px 0px 50px 0px;
+    margin-bottom: 50px;
+}
+
+.first1 h4 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.ground1 {
+    display: flex;
+}
+
+.ground1 img {
+    width: 280px;
+    height: 200px;
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+    margin-left: 32px;
+}
+
+.in1 {
+    display: flex;
+}
+
+.late1 {
+    background: #f9f9f9;
+    padding: 50px 0px 50px 0px;
+    margin-left: 32px;
+    width: 280px;
+    height: 150px;
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+}
+
+.kolom1 { 
+    margin-left: 20px;
+}
+
+.kolom1 p {
+    margin-top: 10px;
+}
+
+/* footer */
+
+.container1 {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.barisfoot {
+    display: flex;
+}
+
+.footer {
+    padding: 40px 0 40px 0;
+    background-color: #243A73;
+}
+
+.barisfoot1 {
+    width: 25%;
+    padding: 0 30px;
+}
+
+.barisfoot2 {
+    color: #fff;
+}
+
+.barisfoot1 h4 {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 300;
+    margin-bottom: 40px;
+    position: relative;
+    margin-right: 98px;
+}
+
+.barisfoot3 h4 {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 300;
+    margin-bottom: 40px;
+    position: relative;
+    margin-right: 150px;
+}
+
+.barisfoot2 h4 {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 300;
+    position: relative;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.barisfoot2 p {
+    font-size: 14px;
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.tlp p {
+    margin-top: 10px;
+}
+
+.barisfoot1 ul li {
+    margin-bottom: 10px;
+    
+}
+
+.barisfoot1 ul li a {
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.barisfoot1 ul li a:hover {
+    padding-left: 8px;
+}
+
+.linkmedsoss img {
+    width: 40px;
+    height: 40px;
+    border-radius: 30%;
+}
+
+#copyright {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
